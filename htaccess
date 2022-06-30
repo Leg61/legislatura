@@ -1,0 +1,7 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+RewriteRule ^([a-z]+)$ $1.php
+RewriteRule ^comunicado-([0-9]+)$ comunicado.php?id=$1
+RewriteRule ^comision-([0-9]+)$ comision.php?id=$1
+RewriteRule ^ficha-([0-9]+)$ ficha.php?id=$1

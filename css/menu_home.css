@@ -1,0 +1,121 @@
+/* MENÃš RESPONSIVO */
+ul.topnav li {float:left; font-family: 'Arimo', sans-serif; font-weight:500;  }
+ul.topnav li.icon {display: none;}
+ul.topnav li a {display:inline-block; padding:10px; font-size:0.9em; text-align:center; text-decoration:none;}
+ul.topnav li a:hover {padding:10px;}
+
+/* MENU DESPLEGABLE */
+
+ul.list li.list{font-family: 'Arimo', sans-serif; }
+ol.list li.list{font-family: 'Arimo', sans-serif; list-style:inside; list-style-type:square; display:inherit;}
+
+#section{width: 100%; padding: 216px 0px 50px; background-size: 100%; }
+
+#box_buscador_desk{ background: rgba(0,0,0,0.35); padding: 20px 40px; border-radius: 50px; width: 80%; max-width: 560px; margin: 150px auto; }
+#box_buscador_movil{ display: none; }
+input.desk { loat: left; width: 100%; max-width: 450px; border-radius: 25px; padding: 12px; font-size: 1.3em; }
+#boton_buscador{float: right; border-radius: 30px; font-size: 1.3em; padding: 15px 25px;}
+
+#reciente{ width: 100%; max-width: 1110px; margin: auto; }
+
+/* BANNER DIALOGO PUBLICO */
+#dialogo_banner{display: block;}
+.portada_dp { width: 100%; max-width: 130px; box-shadow: rgba(100,100,100,0.5) 5px 5px 5px; float: left; }
+.logo_dp { float: left; margin: 0px 35px; width: 100%; max-width: 410px; }
+
+#streaming_desktop {display:block;}
+#streaming_mobile {display:none;}
+
+/* HEADER CHANGING */
+header{width:100%; position:fixed; z-index:10; margin:0px;}
+
+header.large ul.menu{padding:0px; list-style: none; margin:0px; text-align:center;}
+header.large ul li.menu{display:inline-block; margin:0px; position:relative; font-family: 'Arimo', sans-serif; font-weight:400; font-size:1.3em; text-align:left; }
+
+header.large{height:130px; background:rgba(255,255,255,1); transition:1.2s; box-shadow: rgba(0,0,0,0.65) 3px 3px 5px;}
+header.large img.logo{margin:5px 0px 0px; float: left; height:132px; transition:1.2s;}
+header.large ul.topnav{list-style-type:none; padding:5px; margin-top:0px; overflow:hidden; z-index:1000; float:left; transition:1.2s;}
+header.large ul.topnav li a {color:rgba(1,1,1,0.85); border:rgba(1,1,1,0.0) solid 1px; transition:1.2s;}
+header.large ul.topnav li a:hover {color:rgba(1,1,1,1.00); background:rgba(255,255,255,1.00); border:rgba(1,1,1,1.00) solid 1px; transition:1.2s;}
+
+header.large ul li.menu a{display:block; text-decoration:none; margin:0px; padding:3px 10px; transition: all 0.5s ease-in 0s; color:rgba(255,255,255,1.00); border-radius: 10px; text-shadow: rgba(0,0,0,0.65) 0px 0px 3px; }
+header.large ul li.menu a:hover{color:rgba(255,255,255,1.00); background:rgba(150,0,72,1.00); border-radius: 10px; }
+
+header.large ul li.menu ul.dropdown{min-width:120px; /*Set width of the dropdown*/ margin:0px; padding:0px; display:none; position: absolute; z-index: 999; left: 0; text-align:left; color:rgba(1,1,1,1.00); background:none; }
+header.large ul li.menu:hover ul.dropdown{display: block; /* Display the dropdown */ border:rgba(100,100,100,0.35);}
+header.large ul li.menu ul.dropdown li{display: block; color:rgba(137,138,141,1.00); font-size: 0.8em; padding:0px; margin:5px 0px; }
+header.large ul li.menu ul.dropdown li a {padding:5px; text-align:center; color: rgb(255,255,255); background:rgba(0,0,0,0.35); transition:1.2s; border-radius: 10px; } 
+header.large ul li.menu ul.dropdown li a:hover{display: block; color:rgba(255,255,255,1.00); background:rgba(150,0,72,1.00); transition:1.2s; }
+
+header.large #socialbox{float: right; margin: 44px 10px 10px; transition: 0.9s;}
+
+/*header.large nav {width:95%; margin-top:0px; background:linear-gradient( 0deg, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0) 30% );}*/
+
+header.small ul.menu{padding:0px; list-style: none; margin:-35px 0px 0px; text-align:left;}
+header.small ul li.menu{display:inline-block; margin:0px; position:relative; font-family: 'Arimo', sans-serif; font-weight:400; font-size:1.0em; text-align:left; }
+
+header.small{height:135px; background:rgba(255,255,255,1); transition:1.2s; box-shadow:rgba(0,0,0,0.5) 0px 0px 5px; }
+header.small img.logo{margin:20px 40px 20px 0px; float: left; height:100px; transition:1.2s;}
+header.small ul.topnav{list-style-type:none; padding:5px; margin-top:5px; overflow:hidden; z-index:1000; float:left; transition:1.2s;}
+header.small ul.topnav li a {color:rgba(1,1,1,0.85); border:rgba(1,1,1,0.0) solid 1px; transition:1.2s;}
+header.small ul.topnav li a:hover {color:rgba(1,1,1,1.00); background:rgba(255,255,255,1.00); border:rgba(1,1,1,1.00) solid 1px; transition:1.2s;}
+
+header.small ul li.menu a{display:block; text-decoration:none; margin:0px; padding:3px 10px; transition: all 0.5s ease-in 0s; color:rgba(137,138,141,1.00); border-radius: 10px; }
+header.small ul li.menu a:hover{color:rgba(255,255,255,1.00); background:rgba(150,0,72,1.00); border-radius: 10px; }
+
+header.small ul li.menu ul.dropdown{min-width:220px; /*Set width of the dropdown*/ margin:0px; padding:0px; display:none; position: absolute; z-index: 999; left: 0; text-align:left; color:rgba(1,1,1,1.00); background:rgba(255,255,255,1.00); box-shadow:rgba(0,0,0,0.45) 1px 1px 3px;}
+header.small ul li.menu:hover ul.dropdown{display: block; /* Display the dropdown */ border:rgba(100,100,100,0.35);}
+header.small ul li.menu ul.dropdown li{display: block; color:rgba(137,138,141,1.00); font-size: 1.0em; padding:0px; margin:5px; }
+header.small ul li.menu ul.dropdown li a {padding:5px; text-align:left; background:rgba(255,255,255,1.00); transition:1.2s; } 
+header.small ul li.menu ul.dropdown li a:hover{display: block; color:rgba(255,255,255,1.00); background:rgba(150,0,72,1.00); transition:1.2s; }
+
+header.small #socialbox{float: right; margin: 34px 10px 10px; transition: 0.9s;}
+
+@media screen and (max-width:1280px) {
+	#responsive{ display:block; }
+	#scrolldown{ display:none; }
+	
+	ul.topnav li:not(:first-child) {display: none;}
+	ul.topnav li{display: none;}
+	ul.topnav li.icon {float:right; display: inline-block;}
+	
+	header.large{height:100px;}
+	header.large ul.topnav{list-style-type:none; padding:15px; overflow:hidden; z-index:1000; float: right; width:185px;}
+	header.large img.logo{margin:-10px; float: left; height:125px; transition:1.2s;}
+	
+	header.small{height:60px;}
+	header.small ul.topnav{list-style-type:none; padding:0px; margin-top:0px; overflow:hidden; z-index:1000; float: right; width:185px;}
+		
+	ul.topnav.responsive{position:relative; background:rgb(235,235,235);}
+	ul.topnav.responsive li.icon{position: absolute; right:0; top:0;}
+	ul.topnav.responsive li{float: none; display: inline; font-size:1em;}
+	ul.topnav.responsive li a{display: block; text-align:left; background:rgb(235,235,235); margin:5px; }	
+	ul.topnav.responsive li a:hover{background:rgba(200,200,200,1.00); border:#000 solid 1px; }
+}
+
+@media screen and (max-width:670px) {
+	#contenido{padding-top:60px;}
+	
+	#section{width: 100%; padding: 150px 0px 50px; background-size: cover; }
+	
+	#box_buscador_desk{ display: none; }
+	#box_buscador_movil{ display: block; background: rgba(0,0,0,0.35); padding: 20px; border-radius: 50px; width: 290px; margin: 50px auto;}
+	input.movil { width: 200px; border-radius: 25px; padding: 10px; font-size: 1.1em; float: left; }
+	#boton_buscador{ width: 65px; border-radius: 30px; font-size: 1.3em; padding: 15px 25px; margin: auto; float: left; }
+	
+	#reciente{ width: 100%; max-width: 350px; margin: auto; }
+	
+	/* BANNER DIALOGO PUBLICO */
+	#dialogo_banner{display: block; width: 100%; max-width: 300px; margin: auto;}
+	.portada_dp { width: 60%; max-width: 130px; box-shadow: rgba(100,100,100,0.5) 5px 5px 5px; float: none; margin: auto; }
+	.logo_dp { float: none; margin: 20px auto; width: 90%; max-width: 410px; }
+
+	#streaming_desktop {display:none;}
+	#streaming_mobile {display:block;}
+
+	header.large{height:80px; background:rgba(255,255,255,1); transition:1.2s; box-shadow: rgba(0,0,0,0.65) 3px 3px 5px;}	
+	header.large img.logo{margin:0px; float: left; height:80px; transition:1.2s;}
+	
+	header.small{height:60px; background:rgba(255,255,255,1); transition:1.2s; box-shadow: rgba(0,0,0,0.65) 3px 3px 5px;}
+	header.small img.logo{margin:0px; float: left; height:60px; transition:1.2s;}
+}
